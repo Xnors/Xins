@@ -81,13 +81,16 @@ func (pb *ProgressBar) Update(written int) {
 	fmt.Printf("\r[%-50s] %3d%%", bar, int(percentage))
 }
 
-func InstallFilesByUrl(urls []string, directory string, multithreaded bool) {
+func InstallFilesByUrl(urls []string, directory string, multithreaded bool) ([]string) {
 	var wg sync.WaitGroup
+	var files []string
+
 	os.MkdirAll(directory, os.ModePerm) // 确保下载目录存在
 
 	for _, url := range urls {
 		fileName := strings.Split(url, "/")[len(strings.Split(url, "/"))-1]
 		filePath := filepath.Join(directory, fileName)
+		files = append(files, filePath)
 		wg.Add(1) // 增加WaitGroup的计数
 		if multithreaded {
 			go downloadFile(url, filePath, &wg) // 启动一个新的goroutine来下载文件
@@ -98,4 +101,6 @@ func InstallFilesByUrl(urls []string, directory string, multithreaded bool) {
 
 	wg.Wait() // 等待所有goroutine完成
 	fmt.Println("\n全部文件下载完成!")
+
+	return files
 }

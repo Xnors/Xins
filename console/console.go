@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/scylladb/termtables"
 	"os"
+	"os/exec"
 	"strings"
 	"xins/console/installer"
 )
@@ -62,7 +63,7 @@ func core() {
 			fmt.Println("错误: 你想要安装什么?")
 		}
 		func_install(args)
-		
+
 	default:
 		fmt.Println("错误: 未知指令:", command)
 	}
@@ -71,9 +72,16 @@ func core() {
 func func_install(args []string) {
 	fmt.Println("开始下载安装包...")
 
+	var files []string
+
 	if len(args) == 1 {
-		installer.InstallFilesByUrl(args, "downloads", false)
+		files = installer.InstallFilesByUrl(args, "downloads", false)
 	} else if len(args) > 1 {
-		installer.InstallFilesByUrl(args, "downloads", true)
+		files = installer.InstallFilesByUrl(args, "downloads", true)
+	}
+
+	for _, file := range files {
+		fmt.Println(file)
+		exec.Command(file).Run()
 	}
 }
