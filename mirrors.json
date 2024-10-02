@@ -30,5 +30,81 @@
                 "installDoc": "现在你面前的是Python的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n先别急着点别的,看一下窗口的最下方,有一行 \n\t Add python.exe to PATH\n请勾选它(这很重要!!!)\n\n2.\n点击中间的大按钮\n\tInstall Now\nPython会自动安装,这可能需要几分钟\n\n3.\n安装完成后,重启电脑,然后就可以开始编程了!\n祝你好运!\n\n--------------------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
             }
         }
+    },
+    "python3": {
+        "3.13": {
+            "64bit": {
+                "url": "https://www.python.org/ftp/python/3.13.0/python-3.13.0rc2-amd64.exe",
+                "installDoc": "现在你面前的是Python的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n先别急着点别的,看一下窗口的最下方,有一行 \n\t Add python.exe to PATH\n请勾选它(这很重要!!!)\n\n2.\n点击中间的大按钮\n\tInstall Now\nPython会自动安装,这可能需要几分钟\n\n3.\n安装完成后,重启电脑,然后就可以开始编程了!\n祝你好运!\n\n--------------------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            },
+            "32bit": {
+                "url": "https://www.python.org/ftp/python/3.13.0/python-3.13.0rc2.exe",
+                "installDoc": "现在你面前的是Python的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n先别急着点别的,看一下窗口的最下方,有一行 \n\t Add python.exe to PATH\n请勾选它(这很重要!!!)\n\n2.\n点击中间的大按钮\n\tInstall Now\nPython会自动安装,这可能需要几分钟\n\n3.\n安装完成后,重启电脑,然后就可以开始编程了!\n祝你好运!\n\n--------------------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            }
+        },
+        "3.12": {
+            "64bit": {
+                "url": "https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe",
+                "installDoc": "现在你面前的是Python的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n先别急着点别的,看一下窗口的最下方,有一行 \n\t Add python.exe to PATH\n请勾选它(这很重要!!!)\n\n2.\n点击中间的大按钮\n\tInstall Now\nPython会自动安装,这可能需要几分钟\n\n3.\n安装完成后,重启电脑,然后就可以开始编程了!\n祝你好运!\n\n--------------------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            },
+            "32bit": {
+                "url": "https://www.python.org/ftp/python/3.12.6/python-3.12.6.exe",
+                "installDoc": "现在你面前的是Python的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n先别急着点别的,看一下窗口的最下方,有一行 \n\t Add python.exe to PATH\n请勾选它(这很重要!!!)\n\n2.\n点击中间的大按钮\n\tInstall Now\nPython会自动安装,这可能需要几分钟\n\n3.\n安装完成后,重启电脑,然后就可以开始编程了!\n祝你好运!\n\n--------------------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            }
+        },
+        "3.11": {
+            "64bit": {
+                "url": "https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe",
+                "installDoc": "现在你面前的是Python的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n先别急着点别的,看一下窗口的最下方,有一行 \n\t Add python.exe to PATH\n请勾选它(这很重要!!!)\n\n2.\n点击中间的大按钮\n\tInstall Now\nPython会自动安装,这可能需要几分钟\n\n3.\n安装完成后,重启电脑,然后就可以开始编程了!\n祝你好运!\n\n--------------------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            },
+            "32bit": {
+                "url": "https://www.python.org/ftp/python/3.11.0/python-3.11.0.exe",
+                "installDoc": "现在你面前的是Python的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n先别急着点别的,看一下窗口的最下方,有一行 \n\t Add python.exe to PATH\n请勾选它(这很重要!!!)\n\n2.\n点击中间的大按钮\n\tInstall Now\nPython会自动安装,这可能需要几分钟\n\n3.\n安装完成后,重启电脑,然后就可以开始编程了!\n祝你好运!\n\n--------------------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            }
+        }
+    },
+    "golang": {
+        "1.23.2": {
+            "64bit": {
+                "url": "https://golang.google.cn/dl/go1.23.2.windows-amd64.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            },
+            "32bit": {
+                "url": "https://golang.google.cn/dl/go1.23.2.windows-386.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            }
+        },
+        "1.22.8": {
+            "64bit": {
+                "url": "https://golang.google.cn/dl/go1.22.8.windows-amd64.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            },
+            "32bit": {
+                "url": "https://golang.google.cn/dl/go1.22.8.windows-386.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            }
+        }
+    },
+    "go": {
+        "1.23.2": {
+            "64bit": {
+                "url": "https://golang.google.cn/dl/go1.23.2.windows-amd64.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            },
+            "32bit": {
+                "url": "https://golang.google.cn/dl/go1.23.2.windows-386.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            }
+        },
+        "1.22.8": {
+            "64bit": {
+                "url": "https://golang.google.cn/dl/go1.22.8.windows-amd64.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            },
+            "32bit": {
+                "url": "https://golang.google.cn/dl/go1.22.8.windows-386.msi",
+                "installDoc": "现在你面前的是Golang的安装程序,\n别慌,请跟着教程一步一步来\n\n1.\n点击下方的 Next 按钮, \n页面切换后再次点击 Next 按钮, \n页面切换后, 记住上方的安装路径(可以用笔记下来,待会要用,有需求的可以更改,但最好别动), 再次点击 Next 按钮,\n页面切换后点击页面下方的 Install 按钮即可开始安装\n\n2.\n等待安装完成(这可能需要几分钟),\n\n3.\n安装完成后,点击页面下方的 Finish 按钮\n\n4.添加环境变量(IMPORTANT!!!)\n\t1) 在桌面找到“我的电脑(此电脑)”，右键，找到“属性”，找到“高级系统设置”\n\t2) 点击环境变量，在系统变量下找到 “path” 变量选中，点击 “编辑”\n\t3) 点击新建，然后将安装时的目录(之前让大家记住的目录)添加进去，然后点击确定，确定，再确定\n\t4) 重启电脑, 然后就可以开始写代码了！\n\n祝你好运!\n\n-------------------------------------\n\n如果安装过程中遇到问题,请联系我们!\n\tGithub: https://github.com/xnors/xins\n\t邮箱: xnors-studio@outlook.com\n"
+            }
+        }
     }
 }
