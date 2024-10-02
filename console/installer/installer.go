@@ -80,3 +80,9 @@ func InstallFilesByUrl(urls []string, directory string, multithreaded bool) []st
 
 	return files
 }
+
+func InstallOneFileByUrl(url, directory string) string {
+	urls := []string{url}
+	files := InstallFilesByUrl(urls, directory, false)
+	return files[0]
+}
