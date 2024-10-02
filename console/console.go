@@ -60,6 +60,10 @@ func core() {
 		input = strings.TrimSpace(input)
 		parts := strings.Fields(input)
 
+		if len(parts) == 0 {
+			continue
+		}
+
 		// 存储指令和参数
 		command := parts[0]
 		args := parts[1:]
@@ -149,7 +153,8 @@ func func_install(arg string) {
 	fmt.Print("\n======[ 下载完成! ]======\n\n")
 	fmt.Print("==========[以下是安装教程]===========\n\n")
 	fmt.Print(mirrors[strings.ToLower(arg)][version][OSBIT]["installDoc"])
-	fmt.Print("==========[以上是安装教程]===========\n\n")
+	fmt.Print("\n==========[以上是安装教程]===========\n\n")
 	// 运行安装包
-	exec.Command(`.\` + file).Run()
+	// fmt.Println(`powershell`, `/c`, `Start-Process -FilePath "`+file+`"`)
+	exec.Command(`powershell`, `/c`, `Start-Process -FilePath "`+file+`"`).Run()
 }
