@@ -80,7 +80,6 @@ func core() {
 		case "q", "quit", "exit", "退出", "退出程序":
 			fmt.Println("欢迎下次使用!")
 			return
-
 		default:
 			fmt.Println("未知指令:", command)
 		}
@@ -113,30 +112,30 @@ func func_install(arg string) {
 		keys = append(keys, key)
 	}
 	//// 判断软件是否存在
-	if isInSlice(keys, strings.ToLower(arg)) == false {
+	if !isInSlice(keys, strings.ToLower(arg)) {
 		fmt.Print("非常抱歉, 我们还没有收录这个软件!\n您可以前往 xnors-studio@outlook.com 联系我们添加软件!\n")
 		return
 	}
 
-	// 询问版本号
 	fmt.Println("======[ 请输入版本号(必须输入完整的版本号哦) ]====== ")
 
+	var versions []string
 	for key := range mirrors[strings.ToLower(arg)] {
 		fmt.Println("\t\t  ", key)
+		versions = append(versions, key)
 	}
 
 	for {
 		fmt.Print(">>> ")
-		fmt.Scanf("%s", &version)
-		for key := range mirrors[strings.ToLower(arg)] {
-			if key == version {
-				goto OUTLABEL
-			}
+		fmt.Scanf("%s\n", &version)
+		if !isInSlice(versions, version) {
+			fmt.Print("输入的版本号不存在, 请重新输入!\n")
+			continue
+		} else {
+			break
 		}
-
 	}
 
-OUTLABEL:
 	fmt.Printf("准备下载: %s 版本的 %s 安装包 ...\n", version, arg)
 
 	// 获取下载链接
@@ -148,10 +147,9 @@ OUTLABEL:
 	file = installer.InstallOneFileByUrl(urlToDownload, "downloads")
 
 	fmt.Print("\n======[ 下载完成! ]======\n\n")
-
+	fmt.Print("==========[以下是安装教程]===========\n\n")
 	fmt.Print(mirrors[strings.ToLower(arg)][version][OSBIT]["installDoc"])
-
+	fmt.Print("==========[以上是安装教程]===========\n\n")
 	// 运行安装包
 	exec.Command(`.\` + file).Run()
-
 }
