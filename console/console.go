@@ -70,18 +70,18 @@ func core() {
 }
 
 func func_install(args []string) {
-	fmt.Println("开始下载安装包...")
-
 	var files []string
 
 	if len(args) == 1 {
+		fmt.Println("开始下载安装包...")
 		files = installer.InstallFilesByUrl(args, "downloads", false)
 	} else if len(args) > 1 {
+		fmt.Println("开始多线程下载安装包...")
 		files = installer.InstallFilesByUrl(args, "downloads", true)
 	}
 
 	for _, file := range files {
-		fmt.Println(file)
-		exec.Command(file).Run()
+    fmt.Println(`正在运行命令: `,`.\`+file)
+		exec.Command(`.\`+file).Run()
 	}
 }

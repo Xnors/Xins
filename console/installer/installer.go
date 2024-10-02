@@ -23,9 +23,6 @@ func downloadFile(url, filePath string, wg *sync.WaitGroup) {
 	}
 	defer resp.Body.Close()
 
-	// 获取文件总大小
-	totalSize := resp.ContentLength
-
 	// 创建文件
 	out, err := os.Create(filePath)
 	if err != nil {
@@ -33,11 +30,6 @@ func downloadFile(url, filePath string, wg *sync.WaitGroup) {
 		return
 	}
 	defer out.Close()
-
-	// 创建进度条
-	progressBar := &ProgressBar{
-		total: totalSize,
-	}
 
 	// 读取并写入文件
 	buf := make([]byte, 1024*4) // 4KB的缓冲区
@@ -60,28 +52,12 @@ func downloadFile(url, filePath string, wg *sync.WaitGroup) {
 		}
 		written += wn
 
-		// 更新进度条
-		progressBar.Update(written)
 	}
 
-	fmt.Printf("\n已下载 \t\t | %s\n", url)
+	fmt.Printf("已下载 \t\t | %s\n", url)
 }
 
-// ProgressBar is a simple struct to represent a progress bar
-type ProgressBar struct {
-	total int64
-}
-
-// Update updates the progress bar based on the number of bytes written
-func (pb *ProgressBar) Update(written int) {
-	percentage := float64(written) / float64(pb.total) * 100
-	barLength := 50
-	barFilled := int(percentage / 100 * float64(barLength))
-	bar := strings.Repeat("=", barFilled) + strings.Repeat(" ", barLength-barFilled)
-	fmt.Printf("\r[%-50s] %3d%%", bar, int(percentage))
-}
-
-func InstallFilesByUrl(urls []string, directory string, multithreaded bool) ([]string) {
+func InstallFilesByUrl(urls []string, directory string, multithreaded bool) []string {
 	var wg sync.WaitGroup
 	var files []string
 
